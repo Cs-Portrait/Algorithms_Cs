@@ -128,7 +128,7 @@
 <div align="center">
 
 
-![在一棵 2-3 树中分解一个 4- 结点的情况汇总](在一棵2-3树中分解一个4-结点的情况汇总.png)
+![在一棵 2-3 树中分解一个 4- 结点的情况汇总](images/在一棵2-3树中分解一个4-结点的情况汇总.png)
 
 
 <p>在一棵 2-3 树中分解一个 4- 结点的情况汇总</p>
@@ -284,7 +284,7 @@ private boolean isRed(Node x) {
 <div align="center">
 
 
-![向单个 2- 结点插入一个新键](向单个2-结点插入一个新键.png)
+![向单个 2- 结点插入一个新键](images/向单个2-结点插入一个新键.png)
 
 
 <p>向单个 2- 结点插入一个新键</p>
@@ -300,7 +300,7 @@ private boolean isRed(Node x) {
 <div align="center">
 
 
-![向树底部的 2- 结点插入一个新键](向树底部的2-结点插入一个新键.png)
+![向树底部的 2- 结点插入一个新键](images/向树底部的2-结点插入一个新键.png)
 
 
 <p>向树底部的 2- 结点插入一个新键</p>
@@ -324,7 +324,7 @@ private boolean isRed(Node x) {
 <div align="center">
 
 
-![向一颗双键树（即一个 3- 结点）中插入一个新键的三种情况](向一颗双键树（即一个3-结点）中插入一个新键的三种情况.png)
+![向一颗双键树（即一个 3- 结点）中插入一个新键的三种情况](images/向一颗双键树（即一个3-结点）中插入一个新键的三种情况.png)
 
 
 <p>向一颗双键树（即一个 3- 结点）中插入一个新键的三种情况</p>
@@ -341,7 +341,7 @@ private boolean isRed(Node x) {
 <div align="center">
 
 
-![通过转换链接的颜色来分解 4- 结点](通过转换链接的颜色来分解4-结点.png)
+![通过转换链接的颜色来分解 4- 结点](images/通过转换链接的颜色来分解4-结点.png)
 
 
 <p>通过转换链接的颜色来分解 4- 结点</p>
@@ -363,7 +363,7 @@ private boolean isRed(Node x) {
 <div align="center">
 
 
-![向树底部的 3- 结点插入一个新键](向树底部的3-结点插入一个新键.png)
+![向树底部的 3- 结点插入一个新键](images/向树底部的3-结点插入一个新键.png)
 
 
 <p>向树底部的 3- 结点插入一个新键</p>
@@ -381,7 +381,7 @@ private boolean isRed(Node x) {
 <div align="center">
 
 
-![红黑树中红链接向上传递](红黑树中红链接向上传递.png)
+![红黑树中红链接向上传递](images/红黑树中红链接向上传递.png)
 
 
 <p>红黑树中红链接向上传递</p>
@@ -407,7 +407,7 @@ public class RedBlackBST<Key extends Comparable<Key>, Value> {
     private Node rotateLeft(Node h)
     private Node rotateRight(Node h)
     private void flipColors(Node h)
-	private int size(Node x)
+    private int size(Node x)
 
     public void put(Key key, Value val) {
         root = put(root, key, val);
@@ -461,7 +461,7 @@ public class RedBlackBST<Key extends Comparable<Key>, Value> {
 <div align="center">
 
 
-![自顶向下的 2-3-4 树的插入算法中的变换](自顶向下的2-3-4树的插入算法中的变换.png)
+![自顶向下的 2-3-4 树的插入算法中的变换](images/自顶向下的2-3-4树的插入算法中的变换.png)
 
 
 <p>自顶向下的 2-3-4 树的插入算法中的变换</p>
@@ -488,7 +488,7 @@ public class RedBlackBST<Key extends Comparable<Key>, Value> {
 <div align="center">
 
 
-![删除最小键操作中的变换](删除最小键操作中的变换.png)
+![删除最小键操作中的变换](images/删除最小键操作中的变换.png)
 
 
 <p>删除最小键操作中的变换</p>
